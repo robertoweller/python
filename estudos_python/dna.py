@@ -2,7 +2,7 @@
 print('DNA contem A, C, G, e T, acho kk')
 
 # O dna é A, C, G, e T
-dn = ['A', 'C' 'G', 'T']
+dn = ['A', 'C', 'G', 'T']
 
 dna = input('Digite o dna: ')
 
