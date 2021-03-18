@@ -54,7 +54,7 @@ manipular = list()
 for d in dna:
     
     # Vai deixar a string em letra maiuscula
-    d = d.capitalize()
+    d = d.upper()
     # print(d)
     # Para começar entender vou usar if, mas recomendavel usar um dicionario
     if d in complementar:
