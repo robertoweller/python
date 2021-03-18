@@ -33,9 +33,9 @@ A - T
 C - G
 G - C
 
-
 """
 
+# O dna é A, C, G, e T
 # Mas o exercio não pede uma estrutura tão complexa igual então
 # Esse dicionario resolve
 complementar = {
@@ -44,10 +44,6 @@ complementar = {
     'C':'G',
     'G':'C',
 }
-
-
-# O dna é A, C, G, e T
-dn = ['A', 'C', 'G', 'T']
 
 dna = input('Digite uma sequência de DNA: ')
 
@@ -61,7 +57,7 @@ for d in dna:
     d = d.capitalize()
     # print(d)
     # Para começar entender vou usar if, mas recomendavel usar um dicionario
-    if d in dn:
+    if d in complementar:
         corrigido.append(d)
         # print(f'{d=}')
         # Vai no dicionario e muda a letra
