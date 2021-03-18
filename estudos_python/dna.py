@@ -19,6 +19,7 @@ for d in dna:
 
 # manipular vai ser que será usada
 # juntar vai deixar de ser uma lista para virar uma string
-junta = ', '.join(manipular)
+junta = ''.join(manipular)
 
+# junta vai ser o DNA, não sei de DNA, mas acho que é o q pede no exercicio
 print(f'\n {junta=}')
