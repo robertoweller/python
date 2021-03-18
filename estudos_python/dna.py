@@ -68,8 +68,6 @@ for d in dna:
         # e adiciona a lista 
         manipular.append(complementar[d])
 
-
-
 # manipular vai ser que será usada
 # juntar vai deixar de ser uma lista para virar uma string
 junta = ''.join(manipular)
