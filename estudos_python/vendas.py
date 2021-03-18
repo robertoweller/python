@@ -3,7 +3,6 @@ from abc import abstractproperty
 
 def processar():
     
-    
     try:
 
         print('Processando programa...')
@@ -18,29 +17,17 @@ def processar():
         # não vai chamar a função, isso para evitar bug
         
         if int(usuario) <= len(lista) and usuario not in '0':
-        # Vai procurar dentro da lista qual é para chamar!
+        # Vai procurar dentro da lista qual é a função para chamar e efetua!
             lista[int(usuario)-1]()
-        
-        z = int(usuario)
 
-        xxt = 1
-
-        
-    
-        return z
+        return usuario
     
     # Se for um caracter normal tipo uma letrar só vai escrever essa mensagem
     # e continuar rodando normalmente
     except ValueError:
         # Sla, resolver aqui
-        
-        while True:
-            
-            if usuario == '0':
-                print('é 000000000000000')
-                break
-            # Vai procurar o que tem dentro da biblioteca
-            usuario = processar()
+        print('Erro 404!')
+        # processar()
     
 
 def chama():
@@ -58,10 +45,10 @@ def ira():
 
 usu = True
 
-while usu:
+while usu != '0':
         
-    print(f"{usu=}")
-    # Vai procurar o que tem dentro da biblioteca
+    # print(f"{usu=}")
+    # Vai processar e aderir a variavel
     usu = processar()
 
 
