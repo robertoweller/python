@@ -3,4 +3,4 @@
 
 
 Abaixo a imagem do arquivo dna.py funcionado
-!.[Imagem do arquivo dna.py].(dna.png)
+![Imagem do Jogo](dna.png)
