@@ -3,4 +3,4 @@
 
 
 Abaixo a imagem do arquivo dna.py funcionado
-!.[dna.py].(https://raw.githubusercontent.com/robertoweller/python/master/estudos_python/dna.png)
+!.[https://raw.githubusercontent.com/robertoweller/python/master/estudos_python/dna.png].(dna.py)
