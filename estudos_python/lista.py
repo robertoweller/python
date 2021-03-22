@@ -1,41 +1,43 @@
+def empacotar(nomes):
+    """
+    Essa função aceita até dois autores
+    Exemplo:
 
-'''
+    nomes = "Roberto weller, Caiu Vitoga Silvia"
+    """
 
-a = input('Digite o titulo do livro:')
-b = input('Digite os autores do livro:')
-c = input('Ano de publicação do livro:')
-d = input('Cidade:')
-e = input('Editora do livro:')
+    nomes = nomes
+    nome = nomes.split(", ")
 
+    nome_p = nome[0].split()
 
+    formatado = list()
 
-'''
+    # inverte o nome e sobrenome
+    nome_p = f"{nome_p[len(nome_p)-1][0].title()}.{nome_p[0].title()}"
 
-# Digamos que essa sejaa a resposta
-a = 'Perditubes'
-b = 'Roberto Weller, Jao Solza'
-c= '1996'
-d= 'SFS'
-e = 'EdMensoes'
+    formatado.append(nome_p)
+    # print(f"{nome=} Tamanho >{len(nome)}")
 
-# ??? Erro
-autor_1, autor_2 = b.split(',')
+    if len(nome) > 1:
 
-nome, sobrenome = autor_1.split()
-nome_2, sobrenome_2 = autor_2.split()
+        nome_se = nome[1].split()
 
-nome_com = [sobrenome, nome, sobrenome_2, nome_2]
+        # Acha o sobre nome
+        nome_sobre = f"{nome_se[len(nome_se)-1]}"
 
+        # Resolve o nome mudando-o nome de lugar
+        nome_se = f"{nome_sobre[0].title()}.{nome_se[0].title()}"
 
-# Desempacotar todos os nomes juntos
-nom_lis = ' '.join(nome_com)
+        formatado.append(nome_se)
+        # print(f"{nome_se=}")
 
-# A variavel b contém nome
+    formatado = " e ".join(formatado)
 
-
-resulado = f'{nom_lis}, {a}. {d}: {e}, {c}'
+    return formatado
 
 
+# Pergunta pro usuários
+p = input('Escreva o(s) nome(s) do(s) autor(es) separado por ",": ')
 
-# Retorna uma tupla
-print(resulado)
+print(empacotar(p))
