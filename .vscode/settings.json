@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/roberto/Imagens/desenhoos/python/venv/bin/python3",
+    "python.pythonPath": "/usr/local/bin/python3",
     "code-runner.executorMap": {
        "python": "venv/bin/python",
     },
