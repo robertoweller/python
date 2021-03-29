@@ -34,8 +34,12 @@ def gerencia():
                 print(login)
 
 
+x = [i for i in (range(5000000000000000000000000000000000000000000000))]
+
+print(x)
+
 # Se tiver 1 vai rodar o codigo, se 0 não
-roda = 1
+roda = 0
 
 if __name__ == "__main__" and roda:
 
