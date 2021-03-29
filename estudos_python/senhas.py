@@ -7,6 +7,7 @@ def gerencia():
     Também vai fazer o processo de salvar nas listas e exibir as senhas
     salvas
     """
+
     # Lista temporaria
     lista = []
 
@@ -34,12 +35,8 @@ def gerencia():
                 print(login)
 
 
-x = [(i) for i in (range(50000000))]
-
-print(x)
-
 # Se tiver 1 vai rodar o codigo, se 0 não
-roda = 0
+roda = 1
 
 if __name__ == "__main__" and roda:
 
