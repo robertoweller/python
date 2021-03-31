@@ -44,3 +44,32 @@ def ideia():
                 print("2 - Calcular audiência")
                 print("3 - Qual é a música?")
                 print("0 - sair.")
+
+
+def letra():
+    print("Digite Crtl+C para parar de digitar:\n")
+
+    # Cada linha será um item da lista
+    musica = []
+    try:
+        while True:
+            digitando = input("")
+            musica.append(digitando)
+
+    except KeyboardInterrupt:
+
+        print("\n\nDocumento salvo a lista de musicas!")
+
+    return musica
+
+
+print(letra())
+
+
+# letra_musica = input("")
+
+# linhas = letra_musica.split()
+
+# todas_linhas = map("\n", linhas)
+
+# print(linhas)
