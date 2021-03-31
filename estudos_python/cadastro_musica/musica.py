@@ -63,7 +63,35 @@ def letra():
     return musica
 
 
-print(letra())
+def nomes(usuario):
+    non = []
+    # non vai ter todos os cantores
+    non.append(usuario)
+    pass
+
+
+def menu():
+    """
+    Onde sempre vai estar rodando
+    """
+    opcoes = [letra]
+    while True:
+
+        print(
+            """
+        Digite uma opção por favor:
+        1 - Tocar música
+        2 - Calcular audiência
+        3 - Qual é a música?
+        0 - sair.
+        
+        """
+        )
+
+    pass
+
+
+# print(letra())
 
 
 # letra_musica = input("")
