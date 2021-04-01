@@ -1,7 +1,7 @@
 # Variaveis principais
 nomes = []
 cantores = []
-n_tocadas = []
+td_letras = []
 letras = {}
 opcao = -1
 
@@ -34,6 +34,7 @@ while True:
     cantores.append(nome_cantor)
 
     letra_cantor = input("Dígite a letra da música: ")
+    td_letras.append(letra_cantor)
 
     # Vai com todas as informações da musa para o dicionário junto com a letra
     letras[
@@ -107,14 +108,24 @@ while True:
 
                 ##fim do item c)
             elif opcao == 3:
-
-                # Vai procurar a música
-
-                pass
                 ##Inicio do item d)
+                # Vai procurar a música
+                trecho = input("Dígite um trecho: ")
+
+                # print(nome_musica)
+                # for mus in letra_cantor:
+                if trecho in td_letras:
+                    # Achou a letra
+                    posicao = td_letras.index(trecho)
+                    print(f"Música com o trecho especificados: {nomes[posicao]}")
+
+                else:
+                    print("Trecho não encontrado.")
 
                 ##Fim do item d)
             elif opcao == 0:
+                # Usuário saiu do programa...
+                print("Encerrando execução...")
                 quit()
 
             else:
