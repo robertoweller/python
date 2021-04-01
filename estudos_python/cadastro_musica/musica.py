@@ -58,38 +58,53 @@ def letra():
 
     except KeyboardInterrupt:
 
-        print("\n\nDocumento salvo a lista de musicas!")
+        print("\n\nDocumento salvo a lista de musicas!\nEscreva sua letra musical.\n\n")
 
     return musica
 
 
-def nomes(usuario):
+def add_nomes():
+    usuario = input("Nome do compositor> ")
     non = []
     # non vai ter todos os cantores
     non.append(usuario)
-    pass
+
+    # menu()
+
+    # return non
 
 
 def menu():
     """
     Onde sempre vai estar rodando
     """
-    opcoes = [letra]
+    opcoes = [add_nomes, letra]
+
     while True:
 
-        print(
-            """
-        Digite uma opção por favor:
-        1 - Tocar música
-        2 - Calcular audiência
-        3 - Qual é a música?
-        0 - sair.
+        print()
+
+        digitou = (
+            int(
+                input(
+                    """
+        1 - Adicionar artista
+        2 - Escrever letra
+        0 - Sair
         
         """
+                )
+            )
+            - 1
         )
 
-    pass
+        if digitou < 0:
+            break
 
+        opcoes[digitou]()
+
+
+menu()
 
 # print(letra())
 
