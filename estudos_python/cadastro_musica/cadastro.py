@@ -112,12 +112,10 @@ while True:
                 # Vai procurar a música
                 trecho = input("Dígite um trecho: ")
 
-                # print(nome_musica)
-                # for mus in letra_cantor:
                 if trecho in td_letras:
                     # Achou a letra
                     posicao = td_letras.index(trecho)
-                    print(f"Música com o trecho especificados: {nomes[posicao]}")
+                    print(f"Música com o trecho especificado: {nomes[posicao]}")
 
                 else:
                     print("Trecho não encontrado.")
