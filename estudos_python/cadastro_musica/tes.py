@@ -1,5 +1,5 @@
 trecho = "estrada"
-posicao = 0
+
 
 procura = 0
 # Vai recer o cantor da letra
@@ -20,7 +20,3 @@ for cc in td_letras:
         print(f"\nFoi {achou} que cantou esse trecho\n")
 
     procura += 1
-
-    # posicao = conta
-
-# print(td_letras[posicao])
