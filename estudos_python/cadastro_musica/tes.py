@@ -9,8 +9,6 @@ td_letras = ["era vez", "estrada vida"]
 td_cantores = ["Zé da gaita", "João Bosco"]
 
 
-i = trecho
-
 for cc in td_letras:
 
     if trecho in cc:
