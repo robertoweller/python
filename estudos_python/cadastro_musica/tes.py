@@ -1,20 +1,24 @@
-trecho = "estrada"
+def index(palavra, lista):
+    """
+    Vai procurar na lista a palavra e retorna a posição.
+    """
+    procura = 0
+
+    for cc in lista:
+
+        if palavra in cc:
+
+            return procura
+
+        procura += 1
 
 
-procura = 0
-# Vai recer o cantor da letra
-achou = ""
+trecho = "vez"
 
 td_letras = ["era vez", "estrada vida"]
 td_cantores = ["Zé da gaita", "João Bosco"]
 
+achou = index(trecho, td_letras)
+achou = td_cantores[achou]
 
-for cc in td_letras:
-
-    if trecho in cc:
-
-        achou = td_cantores[procura]
-
-        print(f"\nFoi {achou} que cantou esse trecho\n")
-
-    procura += 1
+print(achou)
