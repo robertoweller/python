@@ -13,7 +13,7 @@ def index(palavra, lista):
         procura += 1
 
 
-trecho = "vez"
+trecho = "vida"
 
 td_letras = ["era vez", "estrada vida"]
 td_cantores = ["Zé da gaita", "João Bosco"]
