@@ -7,6 +7,8 @@ Dado um array nums contendo n + 1 inteiros onde cada inteiro está entre
 1 e n (inclusive), prove que pelo menos um número duplicado deve existir. 
 Suponha que haja apenas um número duplicado, encontre o número duplicado.
 
+Nesses exercicio não pode passar de 4 o array.
+
 Exemplo 1:
 
 Entrada: [1,3,4,2,2]
