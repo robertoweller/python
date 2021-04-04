@@ -1,5 +1,6 @@
 from time import sleep
 
+
 # Tentado enteder porque leva tempo para processar essa criptografia
 class Solution:
     def twoSum(self, nums, target):
@@ -10,7 +11,7 @@ class Solution:
 
             for k in range(i + 1, len(nums)):
 
-                print(f"{j=}")
+                print(f"{k=}")
 
                 if nums[i] + nums[k] == target:
 
