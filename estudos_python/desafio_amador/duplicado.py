@@ -1,4 +1,6 @@
 """
+E esse texto é originalmente em inglês.
+
 Encontre o número duplicado
 
 Dado um array nums contendo n + 1 inteiros onde cada inteiro está entre 
