@@ -1,9 +1,13 @@
-class Solution:
-    def __init__(self, nums):
+class Principal:
+    def roda(self, convers):
 
-        self.numero = nums
-
-        return self.numero
+        return convers
 
 
-lista = Solution(9)
+cnvs = ["conversas"]
+
+# Leitor de documento de texto.
+leitor = Principal().roda(cnvs)
+
+
+print(leitor)
