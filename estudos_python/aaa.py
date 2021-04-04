@@ -1,4 +1,6 @@
-aa = 55
+a = 1
 
+b = 2
+c = a + b
 
-print('{}'.format(aa))
+print("a + b = {}".format(c))
