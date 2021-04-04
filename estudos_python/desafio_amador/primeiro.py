@@ -8,13 +8,13 @@ class Solution:
             sleep(1)
             print(f"{i=}")
 
-            for j in range(i + 1, len(nums)):
+            for k in range(i + 1, len(nums)):
 
                 print(f"{j=}")
 
-                if nums[i] + nums[j] == target:
+                if nums[i] + nums[k] == target:
 
-                    return [i, j]
+                    return [i, k]
 
         return None
 
