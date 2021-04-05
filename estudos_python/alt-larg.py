@@ -5,7 +5,7 @@ def primeiro():
     caracter = str(input("Digite o carácter: "))
     linha = -1
 
-    # Esse está fazenod impressão da altura
+    # Esse está fazendo impressão da altura
     while linha <= altura:
 
         print(caracter, end="")
