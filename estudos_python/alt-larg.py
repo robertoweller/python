@@ -1,5 +1,5 @@
 def primeiro():
-    largura = int(input("Digite a largura: "))
+    largura = int(input("Digite a largura: ")) + 2
 
     altura = int(input("Digite a altura: "))
     caracter = str(input("Digite o carácter: "))
