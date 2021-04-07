@@ -12,10 +12,9 @@ def roda():
             # Digamos que você precise passar agora, mas não que chamar a função
             passando = partial(escreve, f"Achou! estava na posição {procura} da lista!")
         procura += 1
-    # Porque a função escreve já esta sendo chamado por outra chamada
-    # escreve()
 
-    # E só agora você que chamar a função, mas não que passar argumento
+    # Porque por exemplo essa função será chamada por outro chamada.
+    # Tipo essa chamada:
     passando()
 
 
