@@ -14,7 +14,7 @@ def roda():
         procura += 1
     
     # Porque por exemplo essa função será chamada por outro chamada.
-    # Tipo essa essa chamada:
+    # Tipo essa chamada:
     passando()
 
 
