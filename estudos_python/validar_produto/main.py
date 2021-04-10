@@ -48,8 +48,10 @@ def validated(e):
         return False
 
 
-def main():
-    code = "21853"
+def main(code=21853):
+
+    # Deixando como o exercicio pede
+    code = str(code)
     total = 0
 
     # Entrada do usuario também é opcional, porque o exercicio não pede
