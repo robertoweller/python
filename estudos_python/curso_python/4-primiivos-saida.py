@@ -22,6 +22,13 @@ Está capitalizada?  True # iscapitalize(digite)
 
 # Função criada por mim, para verificar se está capitalizada
 def iscapitalize(string):
+    """
+    Retorna True se a primeira letra da
+    string é uma string maiúscula, False caso contrário.
+
+    Uma string é capitalizada se apenas o primeiro caracterer na
+    string é maiúsculo e se há pelo menos um caractere na string.
+    """
     if string == string.capitalize():
         return True
     else:
@@ -29,6 +36,7 @@ def iscapitalize(string):
 
 
 d = input("Digite algo: ")
+
 
 tipo = type(d)
 
