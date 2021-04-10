@@ -29,3 +29,23 @@ verificador sepado por hífen, como: 21853-5.
 
 
 """
+
+
+def validar(e):
+    # Se for número.
+    if e.isnumeric():
+
+        if int(e) >= 10000 and int(e) <= 30000:
+
+            print("Valor está dentro do aceitavel")
+
+        else:
+
+            print("Por favor digite valor entre 1000 e 3000")
+
+    else:
+
+        print("Por favor digite apenas números. E tente novamente")
+
+
+validar("21853")
