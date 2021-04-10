@@ -31,21 +31,49 @@ verificador sepado por hífen, como: 21853-5.
 """
 
 
-def validar(e):
+def validated(e):
     # Se for número.
     if e.isnumeric():
 
         if int(e) >= 10000 and int(e) <= 30000:
 
-            print("Valor está dentro do aceitavel")
+            # Os prints são opcionais, porque o exercicio não pede
+            # print("Valor está dentro do aceitavel")
+
+            return True
 
         else:
 
-            print("Por favor digite valor entre 1000 e 3000")
+            # print("Por favor digite valor entre 1000 e 3000")
+
+            return False
 
     else:
+        # print("Por favor digite apenas números. E tente novamente")
 
-        print("Por favor digite apenas números. E tente novamente")
+        return False
 
 
-validar("21853")
+def main():
+    codigo = "21853"
+    total = 0
+
+    # Entrada do usuario também é opcional, porque o exercicio não pede
+    # codigo = input("Digite o código: ")
+
+    # Se validou.
+    if validated(codigo):
+        for i in range(2, 7):
+            # Vai multiplicar cada um dos caracteres
+            # e acrescentar ao valor total
+            total += int(codigo[(i - 2)]) * i
+
+        # código do produto
+        p = f"{codigo}-{total % 7}"
+        print(p)
+
+        return total
+
+
+if __name__ == "__main__":
+    main()
