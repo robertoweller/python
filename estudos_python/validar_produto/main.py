@@ -55,21 +55,21 @@ def validated(e):
 
 
 def main():
-    codigo = "21853"
+    code = "21853"
     total = 0
 
     # Entrada do usuario também é opcional, porque o exercicio não pede
     # codigo = input("Digite o código: ")
 
     # Se validou.
-    if validated(codigo):
+    if validated(code):
         for i in range(2, 7):
             # Vai multiplicar cada um dos caracteres
             # e acrescentar ao valor total
-            total += int(codigo[(i - 2)]) * i
+            total += int(code[(i - 2)]) * i
 
         # código do produto
-        p = f"{codigo}-{total % 7}"
+        p = f"{code}-{total % 7}"
         print(p)
 
         return total
