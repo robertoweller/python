@@ -32,18 +32,18 @@ def validated(e):
         if int(e) >= 10000 and int(e) <= 30000:
 
             # Os prints são opcionais, porque o exercicio não pede
-            # print("Valor está dentro do aceitavel")
+            print("Valor está dentro do aceitavel")
 
             return True
 
         else:
 
-            # print("Por favor digite valor entre 1000 e 3000")
+            print("Por favor digite valor entre 1000 e 3000")
 
             return False
 
     else:
-        # print("Por favor digite apenas números. E tente novamente")
+        print("Por favor digite apenas números e inteiros. E tente novamente")
 
         return False
 
