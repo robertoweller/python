@@ -1,3 +1,3 @@
-tupla = ("Isso é uma tupla!!!!!!!", "afff")
+tupla = ("Isso ", "é uma tupla")
 
 print(tupla)
