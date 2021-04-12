@@ -40,13 +40,12 @@ scriptcs -Version
 
 
 # Versão do scriptcs
-v = "0.16.0"
+v = "0.16.1"
 
 ru_(v)
 
 """
 Versões do scriptcs que da para escolher
-
   0.17.1
   0.17.0
   0.16.1
