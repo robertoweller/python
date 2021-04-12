@@ -44,5 +44,12 @@ v = "0.16.0"
 
 ru_(v)
 
+"""
+Versões do scriptcs que da para escolher
 
-# processo = subprocess.call(["./"], shell=True)
+  0.17.1
+  0.17.0
+  0.16.1
+  0.16.0
+
+"""
