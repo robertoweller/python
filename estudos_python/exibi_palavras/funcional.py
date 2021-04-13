@@ -21,6 +21,6 @@ palavra = input("Digite uma palavra: ")
 palavra_2 = input("digite outra palavra: ")
 rep = int_(input("Digite o número de repetições: "))
 
-tds = [palavra]
+tds = [palavra, palavra_2]
 
 for_(tds, rep)
