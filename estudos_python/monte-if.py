@@ -13,7 +13,7 @@ if p == 0:
             print(palavra)
             print(palavra_2)
 
-if rep.isalnum():
+if rep.isnumeric:
 
     rep = int(rep)
 
