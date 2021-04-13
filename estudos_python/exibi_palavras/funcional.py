@@ -1,10 +1,10 @@
 def int_(a):
     a = str(a)
 
-    if a.isnumeric():
+    if a.isdecimal():
 
         return int(a)
-    else:
+    if a == "":
         return 3
 
 
@@ -20,7 +20,7 @@ def for_(tds, re=3):
 palavra = input("Digite uma palavra: ")
 palavra_2 = input("digite outra palavra: ")
 rep = int_(input("Digite o número de repetições: "))
-
+# # Se que que mais palavras só adicionar a lista
 tds = [palavra, palavra_2]
 
 for_(tds, rep)
