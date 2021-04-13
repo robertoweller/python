@@ -40,7 +40,7 @@ scriptcs -Version
 
 
 # Versão do scriptcs
-v = "0.16.1"
+v = "0.17.1"
 
 ru_(v)
 
@@ -52,3 +52,6 @@ Versões do scriptcs que da para escolher
   0.16.0
 
 """
+
+# Fonts usadas
+# https://github.com/scriptcs/scriptcs
