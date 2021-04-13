@@ -13,8 +13,7 @@ if p == 0:
             print(palavra)
             print(palavra_2)
 
-if rep.isnumeric:
-
+if rep.isnumeric():
     rep = int(rep)
 
     if rep > 0:
