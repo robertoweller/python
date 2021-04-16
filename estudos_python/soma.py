@@ -1,7 +1,12 @@
-numero_1 = int(input("Digite primeiro numero. "))
-numero_2 = int(input("Digite segundo numero. "))
+"""
+Crie um script Python que leia dois
+números e tente mostrar a soma
+entre eles
 
-soma = numero_1 + numero_2
+"""
 
-print("Soma dos dois é", soma)
+# int vai torna a string num número
+primeiro = int(input("Primeiro número "))
+segundo = int(input("Segundo número "))
 
+print(f"A some é {primeiro+segundo}.")
