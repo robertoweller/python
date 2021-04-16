@@ -1,7 +1,10 @@
-
 # Abrir arquivo
-arquivo = open('raspa.txt', 'r')
+arquivoB = open("estudos_python/raspa.txt", "r")
 
-arquivo = arquivo.readline()
+# Le tudo em forma e deixa tudo tentro de uma lista
+arquivo = arquivoB.readlines()
+
+# Fecha o arquivoB
+arquivoB.close()
 
 print(arquivo)
