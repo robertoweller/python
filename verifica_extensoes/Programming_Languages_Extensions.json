@@ -99,7 +99,8 @@
    },
    {
       "name":"Ant Build System",
-      "type":"data"
+      "type":"data",
+      "extensions":[]
    },
    {
       "name":"ApacheConf",
@@ -1294,7 +1295,8 @@
    },
    {
       "name":"Isabelle ROOT",
-      "type":"programming"
+      "type":"programming",
+      "extensions":[]
    },
    {
       "name":"J",
@@ -1755,7 +1757,8 @@
    },
    {
       "name":"Maven POM",
-      "type":"data"
+      "type":"data",
+      "extensions":[]
    },
    {
       "name":"Max",
