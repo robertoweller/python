@@ -2,7 +2,7 @@ import json
 
 # procura = input("Digite: ")
 
-local = "Programming_Languages_Extensions.json"
+local = "verifica_extensoes/Programming_Languages_Extensions.json"
 
 arq_jso = open(local, "r")
 
@@ -11,7 +11,7 @@ arq_jso = json.load(arq_jso)
 
 print("Digite o final do formato junto com o ponto, exemplo '.p'")
 print("Type the ending, the format with just the dot, example '.p'\n")
-
+print(type(arq_jso))
 
 while True:
 
