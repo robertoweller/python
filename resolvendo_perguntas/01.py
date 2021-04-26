@@ -12,19 +12,19 @@ while True:
         if peso_lutador >= 65 and peso_lutador < 72:
              categoria = 'Leve'
              print(categoria)
-        if peso_lutador >= 72 and peso_lutador < 79:
+        elif peso_lutador >= 72 and peso_lutador < 79:
             categoria = 'Ligeiro'
             print(categoria)
-        if peso_lutador >= 79 and peso_lutador < 86:
+        elif peso_lutador >= 79 and peso_lutador < 86:
             categoria = 'Meio-medio'
             print(categoria)
-        if peso_lutador >= 86 and peso_lutador < 93:
+        elif peso_lutador >= 86 and peso_lutador < 93:
             categoria = 'Medio'
             print(categoria)
-        if peso_lutador >= 93 and peso_lutador < 100:
+        elif peso_lutador >= 93 and peso_lutador < 100:
             categoria = 'Meio-pesado'
             print(categoria)
-        if peso_lutador >= 100:
+        elif peso_lutador >= 100:
             categoria = 'Pesado'
             print(categoria)
 
