@@ -89,5 +89,5 @@ if __name__ == '__main__':
         per = input("Insira um valor (ou s para sair): ")
     
     print(
-        f'\nValores contidos no conjunto de {IntSet.inteiros.__name__}:',
+        f'\nValores contidos no conjunto de {IntSet.inteiros.__name__}:\n'
         f'{IntSet("")}')
