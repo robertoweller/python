@@ -13,7 +13,7 @@ python3 acha.py
 ```
 git clone https://github.com/robertoweller/python.git
 cd python/verifica_extensoes
-sudo dpkg -b acha.0.1.deb
+sudo dpkg -i acha.0.1.deb
 ```
 
 ## E para desinstalar:
