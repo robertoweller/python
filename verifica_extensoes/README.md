@@ -11,6 +11,8 @@ python3 acha.py
 ## Se quiser instalar no sistema ubuntu:
 
 ```
+git clone https://github.com/robertoweller/python.git
+cd python/verifica_extensoes
 sudo dpkg -b acha.0.1.deb
 ```
 
