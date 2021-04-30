@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+# Photon command-line interface
+
+def raspa(passado):
+    achou = False
+    for i in arq_jso:
+            
+        if passado in i["extensions"]:
+                
+                print(i["name"], '\n')
+                achou = True
+    
+    # Se não achou
+    if achou != True:
+        print("Não achou nenhum formato.")
+        print("Did not find any format.")
+        exit()
+
+
+if __name__ == "__main__":
+    import sys
+    sys.path.insert(0, r"/opt/acha")
+    import json
+    
+    local = r"/opt/acha/Programming_Languages_Extensions.json"
+    
+    arq_jso = open(local, "r")
+    
+    # Carregar arquivos json
+    arq_jso = json.load(arq_jso)
+
+    try:
+        first = sys.argv[1]
+        print(f"Formato passado '{first}'")
+        raspa(first)
+    except IndexError:
+        
+        procura = input("Digite o final do formato: ")
+        raspa(procura)
+  
+    

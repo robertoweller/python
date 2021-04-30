@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+
+# Licensed GNU General Public License v2.0.
+
+rm /home/roberto/Documentos/python/verifica_extensoes/acha.0.1.deb
+
+echo "Uninstalled, everything clean ..."
+
