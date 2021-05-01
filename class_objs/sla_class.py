@@ -1,18 +1,19 @@
+sla = True
 
+if sla:
+    class PessoaFisica:
+        def __init__(self):
+            self.cpf = '000.000.0...-00'
+            self.rg = '...'
+            # etc..
 
+    class PessoaJuridica:
+        def __init__(self):
+            self.cnpj = '...'
+            self.registroImpresa = '...'
+            # etc
 
-if __name__ == '__main__':
-    class Sla():
-        pass
+    print("sim")
 
-
-    class Kkk():
-        pass
-
-    
-    sla = Sla().__class__.__name__
-    
-    kkk = Kkk().__class__.__name__
-
-    if kkk == 'Kkk':
-        print('Kkk é uma classe kkkkk')
+else:
+    print("não")
