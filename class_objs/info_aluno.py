@@ -55,14 +55,21 @@ Data de conclusão: {self.data_de_conclusão}
 
 
 if __name__ == '__main__':
+    nome = input("Nome: ")
+    idade = input("Idade: ")
+    genero = input("Gênero: ")
+    curso = input("Curso: ")
+    universidade = input("Universidade: ")
+    mga = input("MGA: ")
+    data = input("Data de conclusão: ")
 
     info_aluno = AlunoEscolaridade(
-        nome ='Adalberto da Silva', 
-        idade = 25, 
-        genero ='M', 
-        curso = 'Artes', 
-        universidade = 'UFRGS', 
-        MGA = 7.12, 
-        data = '25/12/2005')
+        nome = nome, 
+        idade = idade, 
+        genero = genero, 
+        curso = curso, 
+        universidade = universidade, 
+        MGA = mga, 
+        data = data)
 
     print(info_aluno)
