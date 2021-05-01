@@ -33,7 +33,7 @@ class Aluno:
 
 
 class AlunoEscolaridade(Aluno):
-    def __init__(self, curso, data, MGA, universidade, nome, idade, genero):
+    def __init__(self, curso, data, MGA, universidade):
         Aluno.__init__(self, nome, idade, genero)
 
         self.curso = curso
@@ -63,10 +63,13 @@ if __name__ == '__main__':
     mga = input("MGA: ")
     data = input("Data de conclusão: ")
 
-    info_aluno = AlunoEscolaridade(
+    aluno = Aluno(
         nome = nome, 
         idade = idade, 
-        genero = genero, 
+        genero = genero
+    )
+    
+    info_aluno = AlunoEscolaridade(
         curso = curso, 
         universidade = universidade, 
         MGA = mga, 
