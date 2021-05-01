@@ -66,4 +66,3 @@ if __name__ == '__main__':
         data = '25/12/2005')
 
     print(info_aluno)
-
