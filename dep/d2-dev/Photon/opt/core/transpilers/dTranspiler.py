@@ -1,2 +1,0 @@
-class Transpiler():
-    pass

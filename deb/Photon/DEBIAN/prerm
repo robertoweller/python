@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+
+# Licensed GNU General Public License v2.0.
+
+echo "Rodando prerm"
+
+echo "LIMPO"
