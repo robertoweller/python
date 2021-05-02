@@ -1,0 +1,10 @@
+Package: photon
+Version: 0.1
+Priority: optional
+Architecture: all
+Depends: python3 (>=3.6.0)
+Suggests: gcc
+Installed-Size: 700
+Maintainer: William Scaff
+Description: Lightning fast and portable programming language!
+

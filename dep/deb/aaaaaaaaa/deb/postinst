@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+# Licensed GNU General Public License v2.0.
+
+echo "Rodando postinst"
