@@ -74,7 +74,7 @@ class Pessoa:
 
             # Chama PessoaFisica
             self.__class__.renda += PessoaFisica(nome, CPF, renda).calculaImposto()
-            # pessoa = "Fulano de Tal"
+            # nome = "Fulano de Tal"
             # CPF = "123.456.789-10"
             # renda = 75000
 
