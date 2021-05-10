@@ -39,4 +39,5 @@ class Testando:
 
 
 if __name__ == "__main__":
-    Testando()
+    soa = Testando()
+    soa.escreve()
