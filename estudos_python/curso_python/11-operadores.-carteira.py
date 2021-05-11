@@ -14,4 +14,4 @@ area = altura*largura
 quant = area/2
 
 print(f'Sua parede tem a dimensão de {largura}x{altura} e sua área é de {area}m².')
-print(f'Para pintar essa parede, você precisará de {quant}l de tinta')
+print(f'Para pintar essa parede, você precisará de {quant}l de tinta.')
