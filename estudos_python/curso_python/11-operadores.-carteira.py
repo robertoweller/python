@@ -6,12 +6,12 @@ quantidade de tinta necessária para pintá-la,
 sabendo que cada litro de tinta, pinta um área de 2m².
 
 """
-altura = float(input("Altura: "))
-largura = float(input("Largura: "))
+largura = float(input("Largura da parede: "))
+altura = float(input("Altura da parede: "))
 
 area = altura*largura
 
+quant = area/2
 
-quant = area*4
-
-print(f'Tem uma area de {area} metros, vai precisa de {quant} litros para pintar')
+print(f'Sua parede tem a dimensão de {largura}x{altura} e sua área é de {area}m².')
+print(f'Para pintar essa parede, você precisará de {quant}l de tinta')
