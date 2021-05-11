@@ -8,8 +8,8 @@ US$1.00 = 3.27
 
 """
 
-carteira = float(input("Quantos tem na carteira? "))
+carteira = float(input("Quantos tem na carteira? R$"))
 
-dolar = 3.27 * carteira
+dolar =  carteira / 3.27
 
-print(dolar)
+print(f'Com {carteira:.2f} você pode coprar US${dolar:.2f}')
