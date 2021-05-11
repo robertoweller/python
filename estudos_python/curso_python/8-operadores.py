@@ -1,9 +1,9 @@
 """
 Desafio 008
 Escreva um programa que leia um valor em metros e mostre
-e exiba convertido em centimetro e milimitros.
+e exiba convertido em centímetro e mililitros.
 """
-metros = float(input("Um distância em mentros: "))
+metros = float(input("Um distância em metros: "))
 
 km = metros/1000
 hm = metros/100
