@@ -12,4 +12,4 @@ carteira = float(input("Quantos tem na carteira? R$"))
 
 dolar =  carteira / 3.27
 
-print(f'Com {carteira:.2f} você pode coprar US${dolar:.2f}')
+print(f'Com R${carteira:.2f} você pode coprar US${dolar:.2f}')
