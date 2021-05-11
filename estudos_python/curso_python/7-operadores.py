@@ -7,7 +7,7 @@ notas de um aluno, calcule e mostre a média.
 
 """
 
-nota1 = int(input('Nota 1: '))
-nota2 = int(input('Nota 2: ' ))
+nota1 = float(input('Primeira nota do aluno: '))
+nota2 = float(input('Segunda nota do aluno: ' ))
 
-print(f'A média é {(nota1 + nota2) / 2}')
+print(f'A média entre {nota1} e {nota2} é igual a {(nota1 + nota2) / 2:.1f}')
