@@ -9,6 +9,6 @@ t = int(input('Digite o número para ver sua tabuada: '))
 
 print('-'*13)
 for sla in range(1, 11):
-    print(f'{t} x {sla} = {t*sla}')
+    print(f'{t} x {sla:2} = {t*sla}')
 
 print('-'*13)
