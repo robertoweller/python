@@ -5,8 +5,10 @@ Faça um programa que leia um número inteiro qualquer e mostre
 na tela a sua tabuada.
 
 """
-t = int(input('Digite o número para sua tabuada: '))
+t = int(input('Digite o número para ver sua tabuada: '))
 
-for sla in range(0, 11):
+print('-'*13)
+for sla in range(1, 11):
     print(f'{t} x {sla} = {t*sla}')
 
+print('-'*13)
