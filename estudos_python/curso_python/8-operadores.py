@@ -13,10 +13,10 @@ centimitros = metros*100
 milimitros = metros*1000
 
 print(
-    f'A medida de {metros:.1f}m corresponde a\n'
+    f'A medida de {metros:.0f}m corresponde a\n'
     f'{km}km\n'
     f'{hm}hm\n'
     f'{dam}dam\n'
     f'{dm}dm\n'
-    f'{centimitros}cm\n'
-    f'{milimitros}mm')
+    f'{centimitros:.0f}cm\n'
+    f'{milimitros:.0f}mm')
