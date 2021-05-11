@@ -1,4 +1,4 @@
-from math import exp
+from math import exp, factorial, pow
 
 # f(1) 2.718281828459045
 # f(2) 7.38905609893065
@@ -12,3 +12,6 @@ def fun(m):
 
 	return f
 
+
+
+print(x)
