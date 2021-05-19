@@ -9,6 +9,7 @@ def veri(valor):
 
 # Compara e exibe qual fruta, se 5 é Limão e 10 é Maça
 def analiza(peso, q='boa'):
+    # Base de dados do peso e 1 para sendo boa e 0 ruim
     x = [[110, 0], [150, 1], [200, 0], [240, 1]]
     y = [5, 5, 10, 10]
 
