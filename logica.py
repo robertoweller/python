@@ -1,7 +1,4 @@
 from sklearn import tree
-
-x = [[110, 0], [150, 1], [200, 0], [240, 1]]
-y = [5, 5, 10, 10]
 # Retorna o número se for um número, ou retorna False se não for 
 def veri(valor):
     try:
@@ -12,6 +9,9 @@ def veri(valor):
 
 # Compara e exibe qual fruta, se 5 é Limão e 10 é Maça
 def analiza(peso, q='boa'):
+    x = [[110, 0], [150, 1], [200, 0], [240, 1]]
+    y = [5, 5, 10, 10]
+
     c = tree.DecisionTreeClassifier()
     c = c.fit(x, y)
     if peso:
