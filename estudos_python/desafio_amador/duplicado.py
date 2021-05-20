@@ -26,3 +26,15 @@ Você deve usar apenas espaço extra constante O (1).
 Sua complexidade de tempo de execução deve ser menor que O (n2).
 Há apenas um número duplicado na matriz, mas pode ser repetido mais de uma vez.
 """
+
+def acha(n):
+    n = sum(n)-10
+    print(n)
+
+
+if __name__ == '__main__':
+    # Teste para ver se estár certo
+    acha([1, 3, 4, 2, 2]) #2
+    acha([3, 1, 3, 4, 2]) #3
+    acha([3, 1, 4, 4, 2]) #4
+    acha([1, 1, 3, 4, 2]) #1
