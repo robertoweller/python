@@ -19,17 +19,24 @@ def analiza(peso, q='boa'):
         fruta = 'Limão' if c.predict([[peso, q]]) == 5 else 'Maça'
         return fruta
 
-peso = veri(input('Digite a gramatura da fruta: ').rstrip('g'))
+erro = True
+while erro:
+    peso = veri(input('Digite a gramatura da fruta: ').rstrip('g'))
 
-if peso:
-    qua = input('Digite qualidade da fruta [boa/ruim]: ').lower()
+    if peso:
+        qua = input('Digite qualidade da fruta [boa/ruim]: ').lower()
 
-    if qua == 'boa':
-        print(analiza(peso, 1))
-    elif qua == 'ruim':
-        print(analiza(peso, 0))
+        if qua == 'boa':
+            print(analiza(peso, 1))
+            
+        elif qua == 'ruim':
+            print(analiza(peso, 0))
+            
+        else:
+            fruta = analiza(peso, 1)
+            print(f'Desculpa, qualidade invalida, mas acredito que seja {fruta}.')
+            erro = False
     else:
-        fruta = analiza(peso, 1)
-        print(f'Desculpa, qualidade invalida, mas acredito que seja {fruta}.')
-else:
-    print('Desculpa, peso invalido.')
+        print('Desculpa, peso invalido.')
+        erro = False
+        
