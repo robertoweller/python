@@ -25,5 +25,6 @@
     "python.testing.nosetestArgs": [
         "Pandas"
     ],
-    "python.testing.promptToConfigure": false
+    "python.testing.promptToConfigure": false,
+    "jupyter.jupyterServerType": "local"
 }
