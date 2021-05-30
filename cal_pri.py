@@ -17,8 +17,6 @@ def gera_l(n):
     return n
 
 
-m = gera_l(9)
-outra = [4, 9, 7, 1]
 def acha(valor):
     primos = []
     for i in valor:
