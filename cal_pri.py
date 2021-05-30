@@ -1,14 +1,3 @@
-def c_primos(n):
-    primos = []
-    # n = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    
-    for div in n:
-        for n_div in n:
-            if div % n_div != 0:
-
-                primos.append(div)
-
-    return primos
 
 def veri_primo(num):
     tot = 0
