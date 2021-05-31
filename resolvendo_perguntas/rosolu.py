@@ -1,3 +1,5 @@
+import os
+
 print('Code Start!')
 courses = ['ADS', 'Infraestrutura de TI', 'Design Pattern']
 about_courses = ['Analise e desenvolvimento de sistemas, com foco em programação orientada a objetos',
@@ -13,6 +15,7 @@ def menu():
     print('(4) Cadastro')
     print('(5) Sair')
     op = input('Selecione uma Opção: ')
+    os.system('cls' if os.name == 'nt' else 'clear')
     return op
 
 def show_courses():
@@ -24,7 +27,6 @@ def show_teachers():
     for p in enumerate(teachers):
         print(f'* {p[1]}')
 
-
 def show_about():
     print('Qual curso você gostaria de ver detalhes?')
     c = 0
@@ -32,7 +34,8 @@ def show_about():
         print(f'{c} - {i}')
         c = c+1
     print(f'{len(courses)} - Voltar para o menu')
-    position = int(input('Insira o código: '))
+    position = int(input('\nInsira o código: '))
+    
     return position
 
 def cadastro():
@@ -49,6 +52,8 @@ def main():
         # (1) Cursos
         if op == '1':
             show_courses()
+            input("\nAperte Enter, para continuar ")
+            os.system('cls' if os.name == 'nt' else 'clear')
         # (2) Sobre
         elif op == '2':
             try:
@@ -56,13 +61,19 @@ def main():
                 print('Descrição:', courses[position])
                 print('Sobre: ', about_courses[position])
                 print('Professor da matéria: ', teachers[position])
+                
+                input("\nAperte Enter, para continuar ")
+                os.system('cls' if os.name == 'nt' else 'clear')
+            
             except:
-                pass
+                os.system('cls' if os.name == 'nt' else 'clear')
         
         # (3) Professores
         elif op == '3':
             show_teachers()
-        
+
+            input("\nAperte Enter, para continuar ")
+            os.system('cls' if os.name == 'nt' else 'clear')
         # (4) Cadastro
         elif op == '4':
             cadastro()
@@ -71,6 +82,8 @@ def main():
             print('Sobre: ', about_courses[-1])
             print('Professor da matéria: ', teachers[-1])
 
+            input("\nAperte Enter, para continuar ")   
+            os.system('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
     main()
