@@ -21,7 +21,8 @@ def show_courses():
 
 def show_teachers():
     print('Esses são os professores cadastrados atualmente:')
-    print(teachers)
+    for p in teachers:
+        print(f'* {p}')
 
 
 def show_about():
