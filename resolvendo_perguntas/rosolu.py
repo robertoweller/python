@@ -22,7 +22,7 @@ def show_courses():
 def show_teachers():
     print('Esses são os professores cadastrados atualmente:')
     for p in enumerate(teachers):
-        print(f'{p[0]} - {p[1]}')
+        print(f'* {p[1]}')
 
 
 def show_about():
@@ -72,4 +72,5 @@ def main():
             print('Professor da matéria: ', teachers[-1])
 
 
-main()
+if __name__ == "__main__":
+    main()
