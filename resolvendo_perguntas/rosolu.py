@@ -21,7 +21,6 @@ def show_courses():
 
 def show_teachers():
     print('Esses são os professores cadastrados atualmente:')
-    # Adincionei o enumerate para tirar a necessidade de usar uma váriavel
     for p in enumerate(teachers):
         print(f'{p[0]} - {p[1]}')
 
@@ -32,7 +31,6 @@ def show_about():
     for i in courses:
         print(f'{c} - {i}')
         c = c+1
-    # Adicionei essa opção voltar ao menu
     print(f'{len(courses)} - Voltar para o menu')
     position = int(input('Insira o código: '))
     return position
@@ -45,7 +43,7 @@ def cadastro():
 
 def main():
     op = ''
-    # Tirar a necessidade de mais um elif
+    # Para de rodar o looping quando usuário digitar 5
     while op != '5':
         op = menu()
         # (1) Cursos
@@ -53,7 +51,6 @@ def main():
             show_courses()
         # (2) Sobre
         elif op == '2':
-            # Verifica se a opção é válida
             try:
                 position = show_about()
                 print('Descrição:', courses[position])
@@ -75,6 +72,4 @@ def main():
             print('Professor da matéria: ', teachers[-1])
 
 
-# Só para chamar a função prinicipal
-if __name__ == '__main__':
-    main()
+main()
