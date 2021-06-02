@@ -8,6 +8,7 @@ about_courses = ['Analise e desenvolvimento de sistemas, com foco em programaç�
 
 teachers = ['Humberto', 'José', 'Maria']
 
+
 def menu():
     print('(1) Cursos')
     print('(2) Sobre')
@@ -18,14 +19,17 @@ def menu():
     os.system('cls' if os.name == 'nt' else 'clear')
     return op
 
+
 def show_courses():
     for c in enumerate(courses):
         print(f'{c[0]} - {c[1]}')
+
 
 def show_teachers():
     print('Esses são os professores cadastrados atualmente:')
     for p in enumerate(teachers):
         print(f'* {p[1]}')
+
 
 def show_about():
     print('Qual curso você gostaria de ver detalhes?')
@@ -37,6 +41,7 @@ def show_about():
     position = int(input('\nInsira o código: '))
     
     return position
+
 
 def cadastro():
     courses.append(input('Digite o Curso: '))
@@ -52,7 +57,7 @@ def main():
         # (1) Cursos
         if op == '1':
             show_courses()
-            input("\nAperte Enter, para continuar ")
+            x = input("\nAperte Enter, para continuar ")
             os.system('cls' if os.name == 'nt' else 'clear')
         # (2) Sobre
         elif op == '2':
@@ -62,7 +67,7 @@ def main():
                 print('Sobre: ', about_courses[position])
                 print('Professor da matéria: ', teachers[position])
                 
-                input("\nAperte Enter, para continuar ")
+                x = input("\nAperte Enter, para continuar ")
                 os.system('cls' if os.name == 'nt' else 'clear')
             
             except:
@@ -72,7 +77,7 @@ def main():
         elif op == '3':
             show_teachers()
 
-            input("\nAperte Enter, para continuar ")
+            x = input("\nAperte Enter, para continuar ")
             os.system('cls' if os.name == 'nt' else 'clear')
         # (4) Cadastro
         elif op == '4':
@@ -85,5 +90,6 @@ def main():
             input("\nAperte Enter, para continuar ")   
             os.system('cls' if os.name == 'nt' else 'clear')
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()

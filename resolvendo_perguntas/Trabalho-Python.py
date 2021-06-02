@@ -35,6 +35,7 @@ def show_about():
     position = int(input('Insira o código: '))
     return position
 
+
 def cadastro():
     courses.append(input('Digite o Curso: '))
     about_courses.append(input('Detalhes do Curso: '))
