@@ -1,26 +1,25 @@
 def v1(ss):
     """
     soma de variavel, mas já está declarada
-    """
-    var = ss
-    outra = 0
+    """ 
+    ss += 1
+    if ss == 100: 
+        try:
+            input(f"Atingiu {ss} vez!")
 
-    if var == 5:
-        outra += 1
-        var = 0
-        input(f"Atingiu {outra} vez! Parabéns!")
-        vari = 0
+            # yield ss
+            return 0 
+        except KeyboardInterrupt:
+            print('\nObrigado por usar nosso programa teste!')
+            return -1
 
-        return vari
-
+    return ss
 
 def main():
-    vari = v1()
+    vari = 0
+    while vari != -1: 
 
-    while True:
-        vari += 1
-
-        v1(vari)
+        vari = v1(vari)
 
 
 main()
