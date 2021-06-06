@@ -8,7 +8,7 @@ Comando 'scriptcs' não encontrado, você quis dizer:
 Experimente: sudo apt install <deb name>
 
 ```
-Já fiz o que pede, na mensagem e não resolveu, talvez o problema esteja no arquivo launch.json o problema, sabem como configurar para que rode o comando: 
+Já fiz o que pede, na mensagem e não resolveu, talvez o problema esteja no arquivo launch.json o problema, agora é descobrir como configurar para que rode o comando: 
 
 Quando dou esse comando ele funciona certo no terminal.
 ```
@@ -117,7 +117,7 @@ scriptcs version manager - 0.4.2
 
 ```
 
-Considerei que era porque o nuget não estava instalado então rodei o comando:
+Considerei que era porque o nuget não estava instalado, então rodei o comando:
 
 ```
 sudo apt-get install nuget
