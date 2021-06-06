@@ -266,7 +266,7 @@ O terminal me retorna:
 Então agora tenho que configura o Vscode né? Porque parece que programa esta funcionando. Como faço para configurar o Vscode?
 
 
-## O que me resolveu foi criar um arquivo `settings.json`, ecolocar cédigo dentro dele:
+## O que me resolveu foi criar um arquivo `settings.json`, e colocar código dentro dele:
 
 
 ```
