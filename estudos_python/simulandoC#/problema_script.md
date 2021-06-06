@@ -1,4 +1,4 @@
-eu instalei o dotnet e tudo mais, mas eu tenho o Run Code quando eu dou Ctrl+Alt+N ele não roda me retorna a seguinte mensagem.
+Eu instalei o dotnet e tudo mais, mas eu tenho o Run Code quando eu dou Ctrl+Alt+N ele não roda me retorna a seguinte mensagem.
 
 ```
 Comando 'scriptcs' não encontrado, você quis dizer:
@@ -123,7 +123,7 @@ Considerei que era porque o nuget não estava instalado então rodei o comando:
 sudo apt-get install nuget
 ```
 
-Mesmo assim continuou o problema. 
+Mesmo assim continuo o problema. 
 
 Então tentando compilar o scriptcs fiz o seginte linha de comando:
 
@@ -262,8 +262,6 @@ O terminal me retorna:
 |___/\___|_|  |_| .__/ \__\\___|___/
                 |_| Version: 0.17.1
 ```
-
-Então agora tenho que configura o Vscode né? Porque parece que programa esta funcionando. Como faço para configurar o Vscode?
 
 
 ## O que me resolveu foi criar um arquivo `settings.json`, e colocar código dentro dele:
