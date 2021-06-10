@@ -35,18 +35,8 @@ def validated(e):
             # print("Valor está dentro do aceitavel")
 
             return True
-
-        else:
-
-            # print("Por favor digite valor entre 1000 e 3000")
-
-            return False
-
-    else:
-        # print("Por favor digite apenas números. E tente novamente")
-
-        return False
-
+    
+    return False
 
 def main(code=21853):
 
@@ -72,4 +62,4 @@ def main(code=21853):
 
 
 if __name__ == "__main__":
-    main()
+    main('11166')
