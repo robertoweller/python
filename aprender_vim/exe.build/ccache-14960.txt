@@ -1,0 +1,589 @@
+[2021-07-04T11:40:20.802322 14969] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:20.802322 14972] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:20.802322 14972] Config: (default) base_dir = 
+[2021-07-04T11:40:20.802322 14972] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:20.802322 14972] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:20.802322 14972] Config: (default) compiler = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:20.802322 14972] Config: (default) compression = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) compression_level = 6
+[2021-07-04T11:40:20.802322 14972] Config: (default) cpp_extension = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) debug = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) depend_mode = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) direct_mode = true
+[2021-07-04T11:40:20.802322 14972] Config: (environment) disable = true
+[2021-07-04T11:40:20.802322 14972] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) hard_link = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) hash_dir = true
+[2021-07-04T11:40:20.802322 14972] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:20.802322 14972] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:20.802322 14972] Config: (default) max_files = 0
+[2021-07-04T11:40:20.802322 14972] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:20.802322 14972] Config: (default) path = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) prefix_command = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) read_only = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) read_only_direct = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) recache = false
+[2021-07-04T11:40:20.802322 14972] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:20.802322 14972] Config: (default) sloppiness = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) stats = true
+[2021-07-04T11:40:20.802322 14972] Config: (default) temporary_dir = 
+[2021-07-04T11:40:20.802322 14972] Config: (default) umask = 
+[2021-07-04T11:40:20.802440 14972] ccache is disabled
+[2021-07-04T11:40:20.802451 14972] Failed; falling back to running the real compiler
+[2021-07-04T11:40:20.802322 14969] Config: (default) base_dir = 
+[2021-07-04T11:40:20.802322 14969] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:20.802322 14969] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:20.802322 14969] Config: (default) compiler = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:20.802322 14969] Config: (default) compression = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) compression_level = 6
+[2021-07-04T11:40:20.802322 14969] Config: (default) cpp_extension = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) debug = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) depend_mode = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) direct_mode = true
+[2021-07-04T11:40:20.802322 14969] Config: (default) disable = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) hard_link = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) hash_dir = true
+[2021-07-04T11:40:20.802322 14969] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:20.802322 14969] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:20.802322 14969] Config: (default) max_files = 0
+[2021-07-04T11:40:20.802322 14969] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:20.802322 14969] Config: (default) path = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) prefix_command = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) read_only = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) read_only_direct = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) recache = false
+[2021-07-04T11:40:20.802322 14969] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:20.802322 14969] Config: (default) sloppiness = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) stats = true
+[2021-07-04T11:40:20.802322 14969] Config: (default) temporary_dir = 
+[2021-07-04T11:40:20.802322 14969] Config: (default) umask = 
+[2021-07-04T11:40:20.802447 14969] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src __constants.c
+[2021-07-04T11:40:20.802457 14972] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src __constants_data.c
+[2021-07-04T11:40:20.802475 14969] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:20.802479 14972] Result: disabled
+[2021-07-04T11:40:20.802513 14969] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:20.802617 14969] Source file: __constants.c
+[2021-07-04T11:40:20.802627 14969] Object file: __constants.o
+[2021-07-04T11:40:20.802648 14969] Trying direct lookup
+[2021-07-04T11:40:20.802713 14969] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/c/3/578be140473336a1d9ece81939a018-5215.manifest
+[2021-07-04T11:40:25.609155 14969] Got object file hash from manifest
+[2021-07-04T11:40:25.701367 14969] Copying /home/roberto/.cache/Nuitka/ccache/6/c/167c453c7bc279ca6fbd5a6dbaa17c-746985.o to __constants.o via __constants.o.roberto-to-be-filled-by-o.14969.4z0xx5 (uncompressed)
+[2021-07-04T11:40:25.804004 14969] Created from cache: /home/roberto/.cache/Nuitka/ccache/6/c/167c453c7bc279ca6fbd5a6dbaa17c-746985.o -> __constants.o
+[2021-07-04T11:40:25.804051 14969] Succeeded getting cached result
+[2021-07-04T11:40:25.804067 14969] Result: cache hit (direct)
+[2021-07-04T11:40:25.836267 14969] Acquired lock /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:26.002453 14969] Releasing lock /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:26.002481 14969] Unlink /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:26.035419 14978] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:26.035419 14978] Config: (default) base_dir = 
+[2021-07-04T11:40:26.035419 14978] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:26.035419 14978] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:26.035419 14978] Config: (default) compiler = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:26.035419 14978] Config: (default) compression = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) compression_level = 6
+[2021-07-04T11:40:26.035419 14978] Config: (default) cpp_extension = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) debug = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) depend_mode = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) direct_mode = true
+[2021-07-04T11:40:26.035419 14978] Config: (default) disable = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) hard_link = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) hash_dir = true
+[2021-07-04T11:40:26.035419 14978] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:26.035419 14978] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:26.035419 14978] Config: (default) max_files = 0
+[2021-07-04T11:40:26.035419 14978] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:26.035419 14978] Config: (default) path = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) prefix_command = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) read_only = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) read_only_direct = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) recache = false
+[2021-07-04T11:40:26.035419 14978] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:26.035419 14978] Config: (default) sloppiness = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) stats = true
+[2021-07-04T11:40:26.035419 14978] Config: (default) temporary_dir = 
+[2021-07-04T11:40:26.035419 14978] Config: (default) umask = 
+[2021-07-04T11:40:26.035499 14978] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src __helpers.c
+[2021-07-04T11:40:26.035524 14978] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:26.035552 14978] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:26.035629 14978] Source file: __helpers.c
+[2021-07-04T11:40:26.035637 14978] Object file: __helpers.o
+[2021-07-04T11:40:26.035654 14978] Trying direct lookup
+[2021-07-04T11:40:26.035807 14978] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/c/5/caf4cc29dad35fa89f8345b7f32293-42969.manifest
+[2021-07-04T11:40:26.215187 14978] Got object file hash from manifest
+[2021-07-04T11:40:26.267838 14978] Copying /home/roberto/.cache/Nuitka/ccache/8/5/4fd5bfe7832caaab6f14de1c844255-769946.o to __helpers.o via __helpers.o.roberto-to-be-filled-by-o.14978.5I0lIK (uncompressed)
+[2021-07-04T11:40:26.492305 14978] Created from cache: /home/roberto/.cache/Nuitka/ccache/8/5/4fd5bfe7832caaab6f14de1c844255-769946.o -> __helpers.o
+[2021-07-04T11:40:26.492364 14978] Succeeded getting cached result
+[2021-07-04T11:40:26.492381 14978] Result: cache hit (direct)
+[2021-07-04T11:40:26.492429 14978] Acquired lock /home/roberto/.cache/Nuitka/ccache/8/stats.lock
+[2021-07-04T11:40:26.492826 14978] Releasing lock /home/roberto/.cache/Nuitka/ccache/8/stats.lock
+[2021-07-04T11:40:26.492839 14978] Unlink /home/roberto/.cache/Nuitka/ccache/8/stats.lock
+[2021-07-04T11:40:26.615209 14981] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:26.615209 14981] Config: (default) base_dir = 
+[2021-07-04T11:40:26.615209 14981] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:26.615209 14981] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:26.615209 14981] Config: (default) compiler = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:26.615209 14981] Config: (default) compression = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) compression_level = 6
+[2021-07-04T11:40:26.615209 14981] Config: (default) cpp_extension = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) debug = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) depend_mode = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) direct_mode = true
+[2021-07-04T11:40:26.615209 14981] Config: (default) disable = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) hard_link = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) hash_dir = true
+[2021-07-04T11:40:26.615209 14981] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:26.615209 14981] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:26.615209 14981] Config: (default) max_files = 0
+[2021-07-04T11:40:26.615209 14981] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:26.615209 14981] Config: (default) path = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) prefix_command = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) read_only = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) read_only_direct = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) recache = false
+[2021-07-04T11:40:26.615209 14981] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:26.615209 14981] Config: (default) sloppiness = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) stats = true
+[2021-07-04T11:40:26.615209 14981] Config: (default) temporary_dir = 
+[2021-07-04T11:40:26.615209 14981] Config: (default) umask = 
+[2021-07-04T11:40:26.615278 14981] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src __loader.c
+[2021-07-04T11:40:26.615290 14981] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:26.615313 14981] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:26.615374 14981] Source file: __loader.c
+[2021-07-04T11:40:26.615380 14981] Object file: __loader.o
+[2021-07-04T11:40:26.615394 14981] Trying direct lookup
+[2021-07-04T11:40:26.617127 14981] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/5/d/b7219a2e9f2d3d50d7929d23c021a8-121799.manifest
+[2021-07-04T11:40:26.625387 14984] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:26.625387 14984] Config: (default) base_dir = 
+[2021-07-04T11:40:26.625387 14984] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:26.625387 14984] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:26.625387 14984] Config: (default) compiler = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:26.625387 14984] Config: (default) compression = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) compression_level = 6
+[2021-07-04T11:40:26.625387 14984] Config: (default) cpp_extension = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) debug = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) depend_mode = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) direct_mode = true
+[2021-07-04T11:40:26.625387 14984] Config: (default) disable = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) hard_link = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) hash_dir = true
+[2021-07-04T11:40:26.625387 14984] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:26.625387 14984] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:26.625387 14984] Config: (default) max_files = 0
+[2021-07-04T11:40:26.625387 14984] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:26.625387 14984] Config: (default) path = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) prefix_command = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) read_only = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) read_only_direct = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) recache = false
+[2021-07-04T11:40:26.625387 14984] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:26.625387 14984] Config: (default) sloppiness = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) stats = true
+[2021-07-04T11:40:26.625387 14984] Config: (default) temporary_dir = 
+[2021-07-04T11:40:26.625387 14984] Config: (default) umask = 
+[2021-07-04T11:40:26.625451 14984] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src module.__main__.c
+[2021-07-04T11:40:26.625472 14984] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:26.625493 14984] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:26.625553 14984] Source file: module.__main__.c
+[2021-07-04T11:40:26.625558 14984] Object file: module.__main__.o
+[2021-07-04T11:40:26.625572 14984] Trying direct lookup
+[2021-07-04T11:40:26.625680 14984] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/3/8/4b89a322179e3ac0a2fa0eca1b5f40-38918.manifest
+[2021-07-04T11:40:26.655734 14984] No such manifest file
+[2021-07-04T11:40:26.655766 14984] Did not find object file hash in manifest
+[2021-07-04T11:40:26.666609 14981] Got object file hash from manifest
+[2021-07-04T11:40:26.667515 14984] Running preprocessor
+[2021-07-04T11:40:26.667535 14984] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src -E module.__main__.c
+[2021-07-04T11:40:26.694509 14981] Copying /home/roberto/.cache/Nuitka/ccache/1/c/10a050d93d1c5b3dc9622cd6d773c2-622771.o to __loader.o via __loader.o.roberto-to-be-filled-by-o.14981.y64clX (uncompressed)
+[2021-07-04T11:40:26.704923 14981] Created from cache: /home/roberto/.cache/Nuitka/ccache/1/c/10a050d93d1c5b3dc9622cd6d773c2-622771.o -> __loader.o
+[2021-07-04T11:40:26.704955 14981] Succeeded getting cached result
+[2021-07-04T11:40:26.704965 14981] Result: cache hit (direct)
+[2021-07-04T11:40:26.704994 14981] Acquired lock /home/roberto/.cache/Nuitka/ccache/1/stats.lock
+[2021-07-04T11:40:26.714238 14981] Releasing lock /home/roberto/.cache/Nuitka/ccache/1/stats.lock
+[2021-07-04T11:40:26.714251 14981] Unlink /home/roberto/.cache/Nuitka/ccache/1/stats.lock
+[2021-07-04T11:40:26.743886 14984] Got object file hash from preprocessor
+[2021-07-04T11:40:26.744096 14984] Object file /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o not in cache
+[2021-07-04T11:40:26.744119 14984] Running real compiler
+[2021-07-04T11:40:26.769028 14984] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src -c -o module.__main__.o module.__main__.c
+[2021-07-04T11:40:26.776892 14992] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:26.776892 14992] Config: (default) base_dir = 
+[2021-07-04T11:40:26.776892 14992] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:26.776892 14992] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:26.776892 14992] Config: (default) compiler = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:26.776892 14992] Config: (default) compression = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) compression_level = 6
+[2021-07-04T11:40:26.776892 14992] Config: (default) cpp_extension = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) debug = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) depend_mode = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) direct_mode = true
+[2021-07-04T11:40:26.776892 14992] Config: (default) disable = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) hard_link = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) hash_dir = true
+[2021-07-04T11:40:26.776892 14992] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:26.776892 14992] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:26.776892 14992] Config: (default) max_files = 0
+[2021-07-04T11:40:26.776892 14992] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:26.776892 14992] Config: (default) path = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) prefix_command = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) read_only = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) read_only_direct = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) recache = false
+[2021-07-04T11:40:26.776892 14992] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:26.776892 14992] Config: (default) sloppiness = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) stats = true
+[2021-07-04T11:40:26.776892 14992] Config: (default) temporary_dir = 
+[2021-07-04T11:40:26.776892 14992] Config: (default) umask = 
+[2021-07-04T11:40:26.776956 14992] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2021-07-04T11:40:26.776979 14992] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:26.777002 14992] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:26.777063 14992] Source file: static_src/MainProgram.c
+[2021-07-04T11:40:26.777069 14992] Object file: static_src/MainProgram.o
+[2021-07-04T11:40:26.777084 14992] Trying direct lookup
+[2021-07-04T11:40:26.777177 14992] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/e/3/e2ecce869366a087b4e311149f8ca2-26671.manifest
+[2021-07-04T11:40:26.919932 14992] Got object file hash from manifest
+[2021-07-04T11:40:26.920516 14992] Copying /home/roberto/.cache/Nuitka/ccache/d/1/94285e95a66cc4a0009a0d11f1e645-753338.o to static_src/MainProgram.o via static_src/MainProgram.o.roberto-to-be-filled-by-o.14992.tjPm0Q (uncompressed)
+[2021-07-04T11:40:26.920799 14992] Created from cache: /home/roberto/.cache/Nuitka/ccache/d/1/94285e95a66cc4a0009a0d11f1e645-753338.o -> static_src/MainProgram.o
+[2021-07-04T11:40:26.920833 14992] Succeeded getting cached result
+[2021-07-04T11:40:26.920848 14992] Result: cache hit (direct)
+[2021-07-04T11:40:26.920883 14992] Acquired lock /home/roberto/.cache/Nuitka/ccache/d/stats.lock
+[2021-07-04T11:40:26.945774 14992] Releasing lock /home/roberto/.cache/Nuitka/ccache/d/stats.lock
+[2021-07-04T11:40:26.945788 14992] Unlink /home/roberto/.cache/Nuitka/ccache/d/stats.lock
+[2021-07-04T11:40:26.975571 14995] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:26.975571 14995] Config: (default) base_dir = 
+[2021-07-04T11:40:26.975571 14995] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:26.975571 14995] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:26.975571 14995] Config: (default) compiler = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:26.975571 14995] Config: (default) compression = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) compression_level = 6
+[2021-07-04T11:40:26.975571 14995] Config: (default) cpp_extension = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) debug = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) depend_mode = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) direct_mode = true
+[2021-07-04T11:40:26.975571 14995] Config: (default) disable = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) hard_link = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) hash_dir = true
+[2021-07-04T11:40:26.975571 14995] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:26.975571 14995] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:26.975571 14995] Config: (default) max_files = 0
+[2021-07-04T11:40:26.975571 14995] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:26.975571 14995] Config: (default) path = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) prefix_command = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) read_only = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) read_only_direct = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) recache = false
+[2021-07-04T11:40:26.975571 14995] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:26.975571 14995] Config: (default) sloppiness = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) stats = true
+[2021-07-04T11:40:26.975571 14995] Config: (default) temporary_dir = 
+[2021-07-04T11:40:26.975571 14995] Config: (default) umask = 
+[2021-07-04T11:40:26.975632 14995] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2021-07-04T11:40:26.975653 14995] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:26.975675 14995] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:26.975739 14995] Source file: static_src/CompiledCellType.c
+[2021-07-04T11:40:26.975744 14995] Object file: static_src/CompiledCellType.o
+[2021-07-04T11:40:26.975758 14995] Trying direct lookup
+[2021-07-04T11:40:26.975808 14995] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/6/c/a4ca75d1addc8bfae37fd89ede4f59-7974.manifest
+[2021-07-04T11:40:26.995929 14995] Got object file hash from manifest
+[2021-07-04T11:40:26.996183 14995] Copying /home/roberto/.cache/Nuitka/ccache/5/f/52bc16b4ed6557f4f0b26d901761d2-750399.o to static_src/CompiledCellType.o via static_src/CompiledCellType.o.roberto-to-be-filled-by-o.14995.GMql84 (uncompressed)
+[2021-07-04T11:40:26.996358 14995] Created from cache: /home/roberto/.cache/Nuitka/ccache/5/f/52bc16b4ed6557f4f0b26d901761d2-750399.o -> static_src/CompiledCellType.o
+[2021-07-04T11:40:26.996381 14995] Succeeded getting cached result
+[2021-07-04T11:40:26.996391 14995] Result: cache hit (direct)
+[2021-07-04T11:40:26.996414 14995] Acquired lock /home/roberto/.cache/Nuitka/ccache/5/stats.lock
+[2021-07-04T11:40:27.004183 14995] Releasing lock /home/roberto/.cache/Nuitka/ccache/5/stats.lock
+[2021-07-04T11:40:27.004198 14995] Unlink /home/roberto/.cache/Nuitka/ccache/5/stats.lock
+[2021-07-04T11:40:27.063247 14998] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:27.063247 14998] Config: (default) base_dir = 
+[2021-07-04T11:40:27.063247 14998] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:27.063247 14998] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:27.063247 14998] Config: (default) compiler = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:27.063247 14998] Config: (default) compression = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) compression_level = 6
+[2021-07-04T11:40:27.063247 14998] Config: (default) cpp_extension = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) debug = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) depend_mode = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) direct_mode = true
+[2021-07-04T11:40:27.063247 14998] Config: (default) disable = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) hard_link = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) hash_dir = true
+[2021-07-04T11:40:27.063247 14998] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:27.063247 14998] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:27.063247 14998] Config: (default) max_files = 0
+[2021-07-04T11:40:27.063247 14998] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:27.063247 14998] Config: (default) path = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) prefix_command = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) read_only = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) read_only_direct = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) recache = false
+[2021-07-04T11:40:27.063247 14998] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:27.063247 14998] Config: (default) sloppiness = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) stats = true
+[2021-07-04T11:40:27.063247 14998] Config: (default) temporary_dir = 
+[2021-07-04T11:40:27.063247 14998] Config: (default) umask = 
+[2021-07-04T11:40:27.063338 14998] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2021-07-04T11:40:27.063367 14998] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:27.063400 14998] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:27.063494 14998] Source file: static_src/CompiledFunctionType.c
+[2021-07-04T11:40:27.063503 14998] Object file: static_src/CompiledFunctionType.o
+[2021-07-04T11:40:27.063523 14998] Trying direct lookup
+[2021-07-04T11:40:27.063881 14998] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/1/5/4529593821630ef87b2ab37d4c4db6-78955.manifest
+[2021-07-04T11:40:27.101333 14998] Got object file hash from manifest
+[2021-07-04T11:40:27.101838 14998] Copying /home/roberto/.cache/Nuitka/ccache/9/3/287695f076e7100d85969c7b202b03-829708.o to static_src/CompiledFunctionType.o via static_src/CompiledFunctionType.o.roberto-to-be-filled-by-o.14998.hOrxFh (uncompressed)
+[2021-07-04T11:40:27.161982 14998] Created from cache: /home/roberto/.cache/Nuitka/ccache/9/3/287695f076e7100d85969c7b202b03-829708.o -> static_src/CompiledFunctionType.o
+[2021-07-04T11:40:27.162032 14998] Succeeded getting cached result
+[2021-07-04T11:40:27.162049 14998] Result: cache hit (direct)
+[2021-07-04T11:40:27.162091 14998] Acquired lock /home/roberto/.cache/Nuitka/ccache/9/stats.lock
+[2021-07-04T11:40:27.162618 14998] Releasing lock /home/roberto/.cache/Nuitka/ccache/9/stats.lock
+[2021-07-04T11:40:27.162634 14998] Unlink /home/roberto/.cache/Nuitka/ccache/9/stats.lock
+[2021-07-04T11:40:27.290038 15001] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:27.290038 15001] Config: (default) base_dir = 
+[2021-07-04T11:40:27.290038 15001] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:27.290038 15001] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:27.290038 15001] Config: (default) compiler = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:27.290038 15001] Config: (default) compression = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) compression_level = 6
+[2021-07-04T11:40:27.290038 15001] Config: (default) cpp_extension = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) debug = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) depend_mode = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) direct_mode = true
+[2021-07-04T11:40:27.290038 15001] Config: (default) disable = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) hard_link = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) hash_dir = true
+[2021-07-04T11:40:27.290038 15001] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:27.290038 15001] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:27.290038 15001] Config: (default) max_files = 0
+[2021-07-04T11:40:27.290038 15001] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:27.290038 15001] Config: (default) path = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) prefix_command = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) read_only = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) read_only_direct = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) recache = false
+[2021-07-04T11:40:27.290038 15001] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:27.290038 15001] Config: (default) sloppiness = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) stats = true
+[2021-07-04T11:40:27.290038 15001] Config: (default) temporary_dir = 
+[2021-07-04T11:40:27.290038 15001] Config: (default) umask = 
+[2021-07-04T11:40:27.290100 15001] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2021-07-04T11:40:27.290120 15001] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:27.290142 15001] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:27.290206 15001] Source file: static_src/CompiledGeneratorType.c
+[2021-07-04T11:40:27.290211 15001] Object file: static_src/CompiledGeneratorType.o
+[2021-07-04T11:40:27.290227 15001] Trying direct lookup
+[2021-07-04T11:40:27.290373 15001] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/d/6/06a916f53695a03eafebe62a459749-57404.manifest
+[2021-07-04T11:40:27.320059 15001] Got object file hash from manifest
+[2021-07-04T11:40:27.320571 15001] Copying /home/roberto/.cache/Nuitka/ccache/7/e/d918c105cfec7918ab79b6a8e9e202-935069.o to static_src/CompiledGeneratorType.o via static_src/CompiledGeneratorType.o.roberto-to-be-filled-by-o.15001.nUXvgw (uncompressed)
+[2021-07-04T11:40:27.432599 15001] Created from cache: /home/roberto/.cache/Nuitka/ccache/7/e/d918c105cfec7918ab79b6a8e9e202-935069.o -> static_src/CompiledGeneratorType.o
+[2021-07-04T11:40:27.432657 15001] Succeeded getting cached result
+[2021-07-04T11:40:27.432674 15001] Result: cache hit (direct)
+[2021-07-04T11:40:27.432719 15001] Acquired lock /home/roberto/.cache/Nuitka/ccache/7/stats.lock
+[2021-07-04T11:40:27.433072 15001] Releasing lock /home/roberto/.cache/Nuitka/ccache/7/stats.lock
+[2021-07-04T11:40:27.433092 15001] Unlink /home/roberto/.cache/Nuitka/ccache/7/stats.lock
+[2021-07-04T11:40:27.923098 14984] Unlink /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o.tmp.stdout.roberto-to-be-filled-by-o.14984.nhbiTb
+[2021-07-04T11:40:27.923153 14984] Unlink /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o.tmp.stderr.roberto-to-be-filled-by-o.14984.d3SqFd
+[2021-07-04T11:40:27.923228 14984] Copying module.__main__.o to /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o via /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o.roberto-to-be-filled-by-o.14984.Kj2Lnc (uncompressed)
+[2021-07-04T11:40:27.923309 14984] Stored in cache: module.__main__.o -> /home/roberto/.cache/Nuitka/ccache/b/9/4772c7a47d3f8a23018a5cd71d342a-769335.o (copied)
+[2021-07-04T11:40:27.924498 14984] Added object file hash to /home/roberto/.cache/Nuitka/ccache/3/8/4b89a322179e3ac0a2fa0eca1b5f40-38918.manifest
+[2021-07-04T11:40:27.924524 14984] Acquired lock /home/roberto/.cache/Nuitka/ccache/3/stats.lock
+[2021-07-04T11:40:27.940840 14984] Releasing lock /home/roberto/.cache/Nuitka/ccache/3/stats.lock
+[2021-07-04T11:40:27.940855 14984] Unlink /home/roberto/.cache/Nuitka/ccache/3/stats.lock
+[2021-07-04T11:40:27.941095 14984] Result: cache miss
+[2021-07-04T11:40:27.941121 14984] Acquired lock /home/roberto/.cache/Nuitka/ccache/b/stats.lock
+[2021-07-04T11:40:27.969799 14984] Releasing lock /home/roberto/.cache/Nuitka/ccache/b/stats.lock
+[2021-07-04T11:40:27.969818 14984] Unlink /home/roberto/.cache/Nuitka/ccache/b/stats.lock
+[2021-07-04T11:40:28.167957 15004] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:28.167957 15004] Config: (default) base_dir = 
+[2021-07-04T11:40:28.167957 15004] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:28.167957 15004] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:28.167957 15004] Config: (default) compiler = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:28.167957 15004] Config: (default) compression = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) compression_level = 6
+[2021-07-04T11:40:28.167957 15004] Config: (default) cpp_extension = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) debug = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) depend_mode = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) direct_mode = true
+[2021-07-04T11:40:28.167957 15004] Config: (default) disable = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) hard_link = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) hash_dir = true
+[2021-07-04T11:40:28.167957 15004] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:28.167957 15004] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:28.167957 15004] Config: (default) max_files = 0
+[2021-07-04T11:40:28.167957 15004] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:28.167957 15004] Config: (default) path = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) prefix_command = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) read_only = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) read_only_direct = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) recache = false
+[2021-07-04T11:40:28.167957 15004] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:28.167957 15004] Config: (default) sloppiness = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) stats = true
+[2021-07-04T11:40:28.167957 15004] Config: (default) temporary_dir = 
+[2021-07-04T11:40:28.167957 15004] Config: (default) umask = 
+[2021-07-04T11:40:28.168025 15004] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/CompiledCodeHelpers.c
+[2021-07-04T11:40:28.168046 15004] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:28.168069 15004] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:28.168134 15004] Source file: static_src/CompiledCodeHelpers.c
+[2021-07-04T11:40:28.168140 15004] Object file: static_src/CompiledCodeHelpers.o
+[2021-07-04T11:40:28.168154 15004] Trying direct lookup
+[2021-07-04T11:40:28.168310 15004] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/6/d/40c8f797912bdb61aed5a0bd9337b3-55522.manifest
+[2021-07-04T11:40:28.176019 15007] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:28.176019 15007] Config: (default) base_dir = 
+[2021-07-04T11:40:28.176019 15007] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:28.176019 15007] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:28.176019 15007] Config: (default) compiler = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:28.176019 15007] Config: (default) compression = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) compression_level = 6
+[2021-07-04T11:40:28.176019 15007] Config: (default) cpp_extension = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) debug = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) depend_mode = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) direct_mode = true
+[2021-07-04T11:40:28.176019 15007] Config: (default) disable = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) hard_link = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) hash_dir = true
+[2021-07-04T11:40:28.176019 15007] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:28.176019 15007] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:28.176019 15007] Config: (default) max_files = 0
+[2021-07-04T11:40:28.176019 15007] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:28.176019 15007] Config: (default) path = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) prefix_command = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) read_only = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) read_only_direct = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) recache = false
+[2021-07-04T11:40:28.176019 15007] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:28.176019 15007] Config: (default) sloppiness = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) stats = true
+[2021-07-04T11:40:28.176019 15007] Config: (default) temporary_dir = 
+[2021-07-04T11:40:28.176019 15007] Config: (default) umask = 
+[2021-07-04T11:40:28.176087 15007] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2021-07-04T11:40:28.176109 15007] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:28.176131 15007] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:28.176195 15007] Source file: static_src/InspectPatcher.c
+[2021-07-04T11:40:28.176201 15007] Object file: static_src/InspectPatcher.o
+[2021-07-04T11:40:28.176214 15007] Trying direct lookup
+[2021-07-04T11:40:28.176276 15007] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/9/5/940c549089329eb7e4bc2f1f007285-13638.manifest
+[2021-07-04T11:40:28.205410 15007] Got object file hash from manifest
+[2021-07-04T11:40:28.205791 15007] Copying /home/roberto/.cache/Nuitka/ccache/e/e/b753166aabf52144361204de917644-755859.o to static_src/InspectPatcher.o via static_src/InspectPatcher.o.roberto-to-be-filled-by-o.15007.Maf8KV (uncompressed)
+[2021-07-04T11:40:28.239185 15007] Created from cache: /home/roberto/.cache/Nuitka/ccache/e/e/b753166aabf52144361204de917644-755859.o -> static_src/InspectPatcher.o
+[2021-07-04T11:40:28.239233 15007] Succeeded getting cached result
+[2021-07-04T11:40:28.239249 15007] Result: cache hit (direct)
+[2021-07-04T11:40:28.239291 15007] Acquired lock /home/roberto/.cache/Nuitka/ccache/e/stats.lock
+[2021-07-04T11:40:28.299563 15007] Releasing lock /home/roberto/.cache/Nuitka/ccache/e/stats.lock
+[2021-07-04T11:40:28.299592 15007] Unlink /home/roberto/.cache/Nuitka/ccache/e/stats.lock
+[2021-07-04T11:40:28.316695 15004] Got object file hash from manifest
+[2021-07-04T11:40:28.321100 15010] === CCACHE 3.7.7 STARTED =========================================
+[2021-07-04T11:40:28.321100 15010] Config: (default) base_dir = 
+[2021-07-04T11:40:28.321100 15010] Config: (environment) cache_dir = /home/roberto/.cache/Nuitka/ccache
+[2021-07-04T11:40:28.321100 15010] Config: (default) cache_dir_levels = 2
+[2021-07-04T11:40:28.321100 15010] Config: (default) compiler = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) compiler_check = mtime
+[2021-07-04T11:40:28.321100 15010] Config: (default) compression = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) compression_level = 6
+[2021-07-04T11:40:28.321100 15010] Config: (default) cpp_extension = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) debug = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) depend_mode = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) direct_mode = true
+[2021-07-04T11:40:28.321100 15010] Config: (default) disable = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) extra_files_to_hash = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) hard_link = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) hash_dir = true
+[2021-07-04T11:40:28.321100 15010] Config: (default) ignore_headers_in_manifest = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) keep_comments_cpp = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) limit_multiple = 0.8
+[2021-07-04T11:40:28.321100 15010] Config: (environment) log_file = /home/roberto/Documentos/python/aprender_vim/exe.build/ccache-14960.txt
+[2021-07-04T11:40:28.321100 15010] Config: (default) max_files = 0
+[2021-07-04T11:40:28.321100 15010] Config: (/home/roberto/.cache/Nuitka/ccache/ccache.conf) max_size = 5.0G
+[2021-07-04T11:40:28.321100 15010] Config: (default) path = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) pch_external_checksum = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) prefix_command = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) prefix_command_cpp = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) read_only = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) read_only_direct = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) recache = false
+[2021-07-04T11:40:28.321100 15010] Config: (default) run_second_cpp = true
+[2021-07-04T11:40:28.321100 15010] Config: (default) sloppiness = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) stats = true
+[2021-07-04T11:40:28.321100 15010] Config: (default) temporary_dir = 
+[2021-07-04T11:40:28.321100 15010] Config: (default) umask = 
+[2021-07-04T11:40:28.321186 15010] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=163 -D_NUITKA_EXE -I/usr/local/include/python3.8 -I. -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/include -I/home/roberto/Documentos/python/venv/lib/python3.8/site-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2021-07-04T11:40:28.321252 15010] Hostname: roberto-to-be-filled-by-o
+[2021-07-04T11:40:28.321295 15010] Working directory: /home/roberto/Documentos/python/aprender_vim/exe.build
+[2021-07-04T11:40:28.321392 15010] Source file: static_src/MetaPathBasedLoader.c
+[2021-07-04T11:40:28.321401 15010] Object file: static_src/MetaPathBasedLoader.o
+[2021-07-04T11:40:28.321421 15010] Trying direct lookup
+[2021-07-04T11:40:28.321646 15010] Looking for object file hash in /home/roberto/.cache/Nuitka/ccache/f/7/83ce1f9b6b3cda275077453bb1a7d5-53897.manifest
+[2021-07-04T11:40:28.333301 15004] Copying /home/roberto/.cache/Nuitka/ccache/2/4/3a4f567e5419e4a7562aeb3c80b1fe-2513118.o to static_src/CompiledCodeHelpers.o via static_src/CompiledCodeHelpers.o.roberto-to-be-filled-by-o.15004.OltrbI (uncompressed)
+[2021-07-04T11:40:28.350040 15010] Got object file hash from manifest
+[2021-07-04T11:40:28.351789 15010] Copying /home/roberto/.cache/Nuitka/ccache/6/4/3d4c89acbe306baf182e29709c9aed-777932.o to static_src/MetaPathBasedLoader.o via static_src/MetaPathBasedLoader.o.roberto-to-be-filled-by-o.15010.ILQml9 (uncompressed)
+[2021-07-04T11:40:28.351889 15004] Created from cache: /home/roberto/.cache/Nuitka/ccache/2/4/3a4f567e5419e4a7562aeb3c80b1fe-2513118.o -> static_src/CompiledCodeHelpers.o
+[2021-07-04T11:40:28.351937 15004] Succeeded getting cached result
+[2021-07-04T11:40:28.351954 15004] Result: cache hit (direct)
+[2021-07-04T11:40:28.352012 15004] Acquired lock /home/roberto/.cache/Nuitka/ccache/2/stats.lock
+[2021-07-04T11:40:28.352200 15010] Created from cache: /home/roberto/.cache/Nuitka/ccache/6/4/3d4c89acbe306baf182e29709c9aed-777932.o -> static_src/MetaPathBasedLoader.o
+[2021-07-04T11:40:28.352221 15010] Succeeded getting cached result
+[2021-07-04T11:40:28.352228 15010] Result: cache hit (direct)
+[2021-07-04T11:40:28.352250 15010] Acquired lock /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:28.352385 15010] Releasing lock /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:28.352392 15010] Unlink /home/roberto/.cache/Nuitka/ccache/6/stats.lock
+[2021-07-04T11:40:28.359616 15004] Releasing lock /home/roberto/.cache/Nuitka/ccache/2/stats.lock
+[2021-07-04T11:40:28.359637 15004] Unlink /home/roberto/.cache/Nuitka/ccache/2/stats.lock
