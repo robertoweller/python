@@ -2,6 +2,9 @@
 Aqui vou testar o nuitka, com o comando:
 
 pip install -U nuitka
+
+python -m nuitka --follow-imports --standalone exe.py
+
 """
 
 def talk(m):
