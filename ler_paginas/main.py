@@ -13,11 +13,15 @@ from selenium import webdriver
 from time import sleep
 
 # A pagina teste de leitura
-canal = 'https://www.twitch.tv/johnpittertv'
+canal = 'https://www.twitch.tv/batatacompepino'
 abre = 5
+# Local do chromedrive
+pasta = f'{os.getcwd()}/chromedriver'
 
-# Local do chromedrive e abri ele
-browser = webdriver.Chrome(executable_path=f'{os.getcwd()}/chromedriver')
+if os.path.isdir('ler_paginas'):
+    pasta = f'{os.getcwd()}/ler_paginas/chromedriver'
+    
+browser = webdriver.Chrome(executable_path = pasta)
 
 browser.get(canal)
 
@@ -46,7 +50,7 @@ try:
 
 
 except KeyboardInterrupt:
-    print('------- Leitura do chat fecahda --------')
+    print('------- Leitura do chat fechou --------')
 # browser.close()
 
 

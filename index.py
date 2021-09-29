@@ -42,3 +42,5 @@ print(f"{tempo_a}")
 
 
 comandos = os.system('shutdown ')
+comando = os.system('exit')
+

@@ -8,9 +8,10 @@ python -m nuitka --follow-imports --standalone exe.py
 """
 
 def talk(m):
-    for i in range(10000000):
+    for i in 0..1000000:
         print(i)
-    return f'Oi, {m} > rodou {i} vezes.'
+    return ''
+
 
 def main():
     print(talk('Roberto'))

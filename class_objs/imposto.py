@@ -65,9 +65,7 @@ class Pessoa:
     renda = 0
     
     def __init__(self, usuario):
-
-        if usuario == '1':
-            
+        if usuario == :   
             nome = input("Nome: ")
             CPF = input("CPF: ")
             renda = input("Renda: ")
@@ -78,8 +76,7 @@ class Pessoa:
             # CPF = "123.456.789-10"
             # renda = 75000
 
-        elif usuario == '2':
-            
+        elif usuario == '2':    
             razaoSocial = input("Razão Social: ")
             CNPJ = input("CNPJ: ")
             renda = input("Renda: ")
@@ -91,8 +88,7 @@ class Pessoa:
             # renda = 2800000
 
 
-    def calculaImposto(self):
-              
+    def calculaImposto(self): 
         self.renda = self.__class__.renda
         print(f'Total de impostos recolhidos: {self.renda:.2f}')
 
@@ -109,6 +105,5 @@ if __name__ == '__main__':
         a = input("Digite o tipo de pessoa (1-Física/2-Juridica): ")
         pessoa = Pessoa(a)
         b = input("Deseja cadastrar nova pessoa? (1-Sim/2-Não): ")
-
 
     imposto = pessoa.calculaImposto()
