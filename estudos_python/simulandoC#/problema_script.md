@@ -264,7 +264,7 @@ O terminal me retorna:
 ```
 
 
-## O que me resolveu foi criar pasta `.vscode` criar um arquivo `settings.json`, e escrever esse código nele:
+## O que me resolveu foi criar pasta `.vscode` criar o arquivo `settings.json`, dentro dela e escrever esse código nele:
 
 
 ```
