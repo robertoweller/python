@@ -40,7 +40,7 @@ tempo_a = str(tempo)[10:16]
 
 print(f"{tempo_a}")
 
+os.system('exit')
+os.system('shutdown ')
 
-comandos = os.system('shutdown ')
-comando = os.system('exit')
 
